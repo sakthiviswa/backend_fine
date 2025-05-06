@@ -1,0 +1,67 @@
+# Python
+_pycache_/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.env
+.venv
+env.bak/
+venv.bak/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# ML Models and Large Files
+*.pth
+*.pt
+*.onnx
+*.h5
+*.hdf5
+*.pkl
+*.model
+
+# Logs and Databases
+*.log
+*.sqlite
+*.db
+
+# Temporary files
+tmp/
+temp/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Distribution
+dist/
+build/
+*.spec
+
+# Local development settings
+instance/
+.webassets-cache
