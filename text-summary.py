@@ -1,8 +1,10 @@
 from flask import Flask, request, jsonify
 from transformers import pipeline
+from flask_cors import CORS  # <-- Import CORS
 import os
 
 app = Flask(__name__)
+CORS(app)
 summarizer = None  # Lazy-loaded to reduce memory use
 
 @app.route("/")
